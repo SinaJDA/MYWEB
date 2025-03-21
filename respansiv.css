@@ -1,0 +1,1170 @@
+@media screen and (max-width:360px){
+    body{
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .body{
+        width: 360px;
+    }
+    .logo h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 20px 20px;
+    }
+    
+    .hedar{
+        position: fixed;
+    }
+
+    .parghraf p{
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 40px;
+    }
+    .parghraf h1{
+        font-size: 40px;
+    }
+    .deta{
+        font-size: 17px;
+        font-family:cursive;
+    }
+    
+    /*navar*/
+    .navbar i{
+        display: inline-block;
+        font-size: 30px;
+        color: aliceblue;
+
+    }
+    .navbar{
+        position: absolute;
+        left: 260px;
+        top: 10px;
+    }
+    .navbar ul{
+        display: none;
+        position: relative;
+        top: 30px;
+        width: 120px;
+        height: 100px;
+        background: black;
+        border-bottom-left-radius: 10px;
+        padding: 10px 0 10px 0;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        text-align: center;
+    }
+
+    .kilid{
+        width: 50px;
+        height: 70px;
+        border: none;
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    
+    
+    #kilid:checked ~ ul{
+        transition: 0.8s ease-in;
+        transform: translateY(0);
+        display: inline-block;
+        position: fixed;
+    }
+    .navbar li a{
+        color: white;
+        font-size: 10px;
+        margin: 20px 4px;
+    }
+
+    .navbar li a:hover{
+        color: aliceblue;
+        text-shadow: 0 0 10px gray;
+    }
+
+    /*navar*/
+
+    .Aboutme p{
+        font-size: 25px;
+    }
+   
+    .text{
+      display: inline-block;
+      width: 270px;
+
+    }
+
+    .text img{
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        position: relative;
+        left: 120px;
+    }
+
+    .parghraf {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 50px;    
+    }
+
+
+    .sliyders{
+        text-align: center;
+    }
+    .slayder{
+        position: relative;
+        top: 40px;
+        height: 700px;
+    }
+    
+    .inner-part .img img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        right: 50px;
+    }
+    .matn p{
+        font-size: 28px;
+    }
+
+    .conten{
+       position: absolute;
+       top: 35%;
+       left: 0;
+       width: 200px;
+    }
+
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 50%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+    
+   .joob{
+    margin-top: 100px;
+   }
+   .job .saye{
+    position: absolute;
+    left: 10%;
+   }
+   .job .label{
+    position: relative;
+    left: 0;
+   }
+
+   .right h1::before{
+    position: absolute;
+    left: -10px;
+   }
+
+
+   .link-in {
+    width: 25px;
+    position: relative;
+    right: 10px;
+   }
+
+    .tayp{
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .tayp .bottom{
+        position: relative;
+       left: 25px;
+    }
+    .tayp .top{
+        position: relative;
+        left: 25px;
+    }
+   .tayp .top p{
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    right: 40px;
+   }
+
+   .tayp .bottom p{
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    right: 40px;
+   }
+
+   .foter h1::before{
+    width: 300px;
+    box-shadow: none;
+   }
+}
+
+
+
+
+
+@media (min-width:361px) and (max-width:380px){
+   
+    /*navar*/
+    .navbar i{
+        display: inline-block;
+        font-size: 30px;
+        color: aliceblue;
+
+    }
+    .navbar{
+        position: absolute;
+        left: 280px;
+        top: 10px;
+    }
+    .navbar ul{
+        display: none;
+        position: relative;
+        top: 30px;
+        width: 120px;
+        height: 100px;
+        background: black;
+        border-bottom-left-radius: 10px;
+        padding: 20px 0 10px 0;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .kilid{
+        width: 50px;
+        height: 70px;
+        border: none;
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    
+    
+    #kilid:checked ~ ul{
+        transition: 0.8s ease-in;
+        transform: translateY(0);
+        display: inline-block;
+        position: fixed;
+    }
+    .navbar li a{
+        color: white;
+        font-size: 10px;
+        margin: 20px 4px;
+    }
+
+    .navbar li a:hover{
+        color: aliceblue;
+        text-shadow: 0 0 10px gray;
+    }
+
+    /*navar*/
+    .logo h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 20px 20px;
+    }
+    
+    .text{
+      display: inline-block;
+      width: 270px;
+
+    }
+    .text img{
+        width: 230px;
+        height: 230px;
+        margin: 40px auto;
+        position: relative;
+        left: 140px;
+    }
+
+    .Aboutme p{
+        font-size: 25px;
+    }
+    .parghraf {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 80px;    
+    }
+    .parghraf h1{
+        font-size: 40px;
+    }
+
+    .deta{
+        font-size: 20px;
+    }
+    .sliyders{
+        text-align: center;
+    }
+    .slayder{
+        position: relative;
+        top: 40px;
+        height: 700px;
+    }
+    
+    .inner-part .img img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        right: 50px;
+    }
+
+    .conten{
+       position: absolute;
+       top: 35%;
+       left: 0;
+       width: 200px;
+    }
+
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 50%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+   .joob{
+    margin-top: 100px;
+   }
+   .job .saye{
+    position: absolute;
+    left: 10%;
+   }
+   .job .label{
+    position: relative;
+    left: 0;
+   }
+
+   .right h1::before{
+    position: absolute;
+    left: -10px;
+   }
+
+
+   .link-in {
+    width: 20px;
+    position: relative;
+    right: 0;
+   }
+
+   .matn p{
+    font-size: 28px;
+   }
+    .tayp{
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .tayp .bottom{
+        position: relative;
+        right: 10px;
+    }
+    .tayp .top{
+        position: relative;
+        right:10px;
+    }
+   .tayp .top p{
+    font-size: 15px;
+    width: 200px;
+   }
+   .tayp .bottom p{
+    font-size: 15px;
+    width: 200px;
+   }
+
+   .foter h1::before{
+    width: 300px;
+    box-shadow: none;
+   }
+}
+
+@media (min-width:381px) and (max-width:420px){
+    .parghraf p{
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 20px;
+    }
+    .parghraf h1{
+        font-size: 40px;
+    }
+    .deta{
+        font-size: 17px;
+        font-family:cursive;
+    }
+    /*navar*/
+    .navbar i{
+        display: inline-block;
+        font-size: 30px;
+        color: aliceblue;
+
+    }
+    .navbar{
+        position: absolute;
+        left: 300px;
+        top: 10px;
+    }
+    .navbar ul{
+        display: none;
+        position: relative;
+        top: 30px;
+        width: 120px;
+        height: 100px;
+        background: black;
+        border-bottom-left-radius: 10px;
+        padding: 10px 0 10px 0;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .kilid{
+        width: 50px;
+        height: 70px;
+        border: none;
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    
+    
+    #kilid:checked ~ ul{
+        transition: 0.8s ease-in;
+        transform: translateY(0);
+        display: inline-block;
+        position: fixed;
+    }
+    .navbar li a{
+        color: white;
+        font-size: 10px;
+        margin: 20px 4px;
+    }
+
+    .navbar li a:hover{
+        color: aliceblue;
+        text-shadow: 0 0 10px gray;
+    }
+
+    /*navar*/
+    .logo h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 20px 20px;
+    }
+    .text1{
+        font-size: 35px;
+    }
+    .text{
+      display: inline-block;
+      width: 270px;
+
+    }
+    .text img{
+        width: 230px;
+        height: 230px;
+        margin: 40px auto;
+        position: relative;
+        left: 140px;
+    }
+    .Aboutme p{
+        font-size: 25px;
+    }
+
+    .parghraf {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 70px;    
+    }
+
+    .sliyders{
+        text-align: center;
+    }
+    .slayder{
+        position: relative;
+        top: 40px;
+        height: 700px;
+    }
+    
+    .inner-part .img img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        right: 50px;
+    }
+
+    .matn p{
+        font-size: 28px;
+    }
+    .conten{
+       position: absolute;
+       top: 35%;
+       left: 0;
+       width: 200px;
+    }
+
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 50%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+   .joob{
+    margin-top: 100px;
+   }
+   .job .saye{
+    position: absolute;
+    left: 10%;
+   }
+   .job .label{
+    position: relative;
+    left: 0;
+   }
+
+   .right h1::before{
+    position: absolute;
+    left: -10px;
+   }
+
+
+   .link-in {
+    width: 30px;
+    position: relative;
+    right: 5px;
+   }
+
+    .tayp{
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .tayp .bottom{
+        position: relative;
+        right: 35px;
+    }
+    .tayp .top{
+        position: relative;
+        right: 35px;
+    }
+   .tayp .top p{
+    font-size: 15px;
+    width: 200px;
+   }
+   .tayp .bottom p{
+    font-size: 15px;
+    width: 200px;
+   }
+
+   .foter h1::before{
+    width: 300px;
+    box-shadow: none;
+   }
+}
+
+
+
+
+
+@media (min-width:421px) and (max-width:450px){
+    .parghraf p{
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 20px;
+    }
+    .parghraf h1{
+        font-size: 40px;
+    }
+    .deta{
+        font-size: 17px;
+        font-family:cursive;
+    }
+    /*navar*/
+    .navbar i{
+        display: inline-block;
+        font-size: 30px;
+        color: aliceblue;
+
+    }
+    .navbar{
+        position: absolute;
+        left: 340px;
+        top: 10px;
+    }
+    .navbar ul{
+        display: none;
+        position: relative;
+        top: 30px;
+        width: 120px;
+        height: 100px;
+        background: black;
+        border-bottom-left-radius: 10px;
+        padding: 10px 0 10px 0;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .kilid{
+        width: 50px;
+        height: 70px;
+        border: none;
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    
+    
+    #kilid:checked ~ ul{
+        transition: 0.8s ease-in;
+        transform: translateY(0);
+        display: inline-block;
+        position: fixed;
+    }
+    .navbar li a{
+        color: white;
+        font-size: 10px;
+        margin: 20px 4px;
+    }
+
+    .navbar li a:hover{
+        color: aliceblue;
+        text-shadow: 0 0 10px gray;
+    }
+
+    /*navar*/
+    .logo h1{
+        font-size: 25px;
+        margin: 0;
+        padding: 10px 20px;
+    }
+    
+    .text{
+      display: inline-block;
+      width: 270px;
+
+    }
+
+    .text1{
+        font-size: 40px;
+    }
+    .text img{
+        width: 230px;
+        height: 230px;
+        margin: 40px auto;
+        position: relative;
+        left: 150px;
+    }
+
+    .parghraf {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 30%;    
+    }
+
+    .Aboutme p{
+        font-size: 25px;
+    }
+
+    .sliyders{
+        text-align: center;
+    }
+    .slayder{
+        position: relative;
+        top: 40px;
+        height: 700px;
+    }
+    
+    .inner-part .img img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        right: 70px;
+    }
+
+    .conten{
+       position: absolute;
+       top: 35%;
+       left: 0;
+       width: 200px;
+    }
+
+    .matn p{
+        font-size: 30px;
+    }
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 50%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+   .joob{
+    margin-top: 100px;
+   }
+   .job .saye{
+    position: absolute;
+    left: 10%;
+   }
+   .job .label{
+    position: relative;
+    left: 0;
+   }
+
+   .right h1::before{
+    position: absolute;
+    left: -10px;
+   }
+
+
+   .link-in {
+    width: 30px;
+    position: relative;
+    right: 0;
+   }
+
+    .tayp{
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .tayp .bottom{
+        position: relative;
+        right: 45px;
+    }
+    .tayp .top{
+        position: relative;
+        right: 45px;
+    }
+   .tayp .top p{
+    font-size: 20px;
+    width: 200px;
+   }
+   .tayp .bottom p{
+    font-size: 20px;
+    width: 200px;
+   }
+
+   .foter h1::before{
+    width: 300px;
+    box-shadow: none;
+   }
+}
+
+
+
+
+
+
+@media (min-width:451px) and (max-width:550px){
+    .parghraf p{
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 45px;
+    }
+    .parghraf h1{
+        font-size: 40px;
+    }
+    .deta{
+        font-size: 17px;
+        font-family:cursive;
+    }
+    .navbar{
+        width: 500px;
+        position: relative;
+        left: 20%;
+    }
+    .navbar ul{
+        padding: 0px 0px;
+        margin: 0 120px 0 0;
+    }
+    
+    .navbar a:hover,.navbar a.first{
+        color: rgb(0, 242, 255);
+    }
+    .navbar ul li{
+        margin: 0px 5px;
+        display: inline-block;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: aliceblue;
+        transition: .3s;
+        font-size: 10px;
+    }
+    .logo h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 10px 20px;
+    }
+    
+    .text{
+      display: inline-block;
+      width: 270px;
+
+    }
+    .text img{
+        width: 230px;
+        height: 230px;
+        margin: 40px auto;
+        position: relative;
+        left: 220px;
+    }
+
+    .parghraf {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 50%;    
+    }
+    .btm-box{
+        position: relative;
+        left: -3%;
+        bottom: 50px;
+    }
+
+    .matn p{
+        font-size: 30px;
+    }
+    .sliyders{
+        text-align: center;
+    }
+    .slayder{
+        position: relative;
+        top: 40px;
+        height: 700px;
+    }
+    
+    .inner-part .img img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        right: 50px;
+    }
+
+    .conten{
+       position: absolute;
+       top: 35%;
+       left: 0;
+       width: 200px;
+    }
+
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 50%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+   .joob{
+    margin-top: 100px;
+   }
+   .job .saye{
+    position: absolute;
+    left: 10%;
+   }
+   .job .label{
+    position: relative;
+    left: 0;
+   }
+
+   .right h1::before{
+    position: absolute;
+    left: -10px;
+   }
+
+
+   .link-in {
+    width: 30px;
+    position: relative;
+    right: 0;
+   }
+
+    .tayp{
+        padding: 10px 0;
+    }
+    .tayp .bottom{
+        position: relative;
+        left: 0;
+    }
+    .tayp .top{
+        position: relative;
+        left: 0;
+    }
+   .tayp .top p{
+    font-size: 15px;
+    width: 100px;
+   }
+   .tayp .bottom p{
+    font-size: 15px;
+    width: 100px;
+   }
+
+   .foter h1::before{
+    width: 300px;
+    box-shadow: none;
+   }
+}
+
+
+
+
+
+
+
+@media (min-width:790px) and (max-width:840px){
+    .parghraf p{
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 20px;
+    }
+    .parghraf h1{
+        font-size: 40px;
+    }
+    .deta{
+        font-size: 17px;
+        font-family:cursive;
+    }
+    .navbar{
+        width: 500px;
+        position: relative;
+        left: 10%;
+    }
+    .navbar ul{
+        margin: 20px 190px 0 0;
+        width: 300px;
+    }
+    
+    .navbar a:hover,.navbar a.first{
+        color: rgb(0, 242, 255);
+    }
+    .navbar ul li{
+        margin: 0 8px;
+        display: inline-block;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: aliceblue;
+        transition: .3s;
+        font-size: 10px;
+    }
+    .logo h1{
+        font-size: 30px;
+        margin: 0;
+        padding: 20px 20px;
+    }
+    
+    .text1{
+        font-size: 50px;
+    }
+    .text img{
+        width: 230px;
+        height: 230px;
+        margin: 40px auto;
+        position: relative;
+        right: 0;
+    }
+
+    .parghraf {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        left: 0px;    
+    }
+
+    .sliyders{
+        text-align: center;
+    }
+   
+    .matn p{
+        font-size: 45px;
+    }
+    .inner-part .img img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        right: 50px;
+    }
+
+    .conten{
+       position: absolute;
+       top: 30%;
+       left: 0;
+       width: 200px;
+    }
+
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 60%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+   .joob{
+    margin-top: 100px;
+   }
+   
+
+   .link-in {
+    width: 30px;
+    position: relative;
+    right: 0;
+   }
+   .tayp .top p{
+    font-size: 20px;
+    width: 200px;
+   }
+   .tayp .bottom p{
+    font-size: 20px;
+    width: 200px;
+   }
+
+   .foter h1::before{
+    width: 800px;
+    box-shadow: none;
+   }
+}
+
+
+
+@media (min-width:1000px) and (max-width:1035px){
+   
+    .navbar{
+        width: 500px;
+        position: relative;
+        left: 10%;
+    }
+    .navbar ul{
+        margin: 20px 10px;
+    }
+    
+    .navbar a:hover,.navbar a.first{
+        color: rgb(0, 242, 255);
+    }
+    .navbar ul li{
+        margin: 0px 10px;
+        display: inline-block;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: aliceblue;
+        transition: .3s;
+        font-size: 10px;
+    }
+    .logo h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 20px 20px;
+    }
+    
+    
+    .text img{
+        width: 230px;
+        height: 230px;
+        margin: 40px auto;
+        position: relative;
+        right: 0;
+    }
+
+    .parghraf {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        left: 0px;    
+    } 
+    .inner-part .img img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        right: 50px;
+    }
+
+    .conten{
+       position: absolute;
+       top: 30%;
+       left: 0;
+       width: 200px;
+    }
+
+    .document h1::before{
+        position: absolute;
+        top: -10px;
+    }
+    .document{
+        position: relative;
+        top: 60%;
+    }
+
+    .document .tent{
+        height: auto;
+    }
+   .joob{
+    margin-top: 100px;
+   }
+   
+
+   .link-in {
+    width: 30px;
+    position: relative;
+    right: 0;
+   }
+   .tayp .top p{
+    font-size: 20px;
+    width: 200px;
+   }
+   .tayp .bottom p{
+    font-size: 20px;
+    width: 200px;
+   }
+
+   .foter h1::before{
+    width: 800px;
+    box-shadow: none;
+   }
+}
+
+
